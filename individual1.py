@@ -14,7 +14,6 @@ class Pair:
         self.first = first
         self.second = second
 
-
     def display(self):
         print(self.first, self.second)
 
