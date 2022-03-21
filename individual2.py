@@ -13,6 +13,7 @@ OrArray (выбор). В первом классе операция сложен
 from abc import ABC, abstractmethod
 import math
 
+
 class Array(ABC):
 
     def __init__(self, arr):
@@ -46,6 +47,7 @@ class AndArray(Array):
         for num in self.arr:
             print(num)
 
+            
 class OrArray(Array):
 
     def add(self, other):
@@ -62,6 +64,7 @@ class OrArray(Array):
         for num in self.arr:
             print(num)
 
+            
 if __name__ == '__main__':
     arr = AndArray([1, 4, 5, 7, 48, 55])
     arr2 = AndArray([4, 2, 5, 7, 34, 48])
