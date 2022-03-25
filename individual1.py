@@ -45,4 +45,4 @@ if __name__ == '__main__':
     complex1 = Complex(5, 13)
     complex2 = Complex(12, 3)
     complex1.sub(complex2).display()
-    complex1.addition(complex2).display()
+    complex1.add(complex2).display()
