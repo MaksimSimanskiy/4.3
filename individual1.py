@@ -17,7 +17,7 @@ class Pair:
     def display(self):
         print(self.first, self.second)
 
-    def addition(self, term):
+    def add(self, term):
         if isinstance(term, Pair):
             return Pair(self.first + self.second, term.first + term.second)
 
@@ -28,7 +28,7 @@ class Pair:
 
 class Complex(Pair):
 
-    def addition(self, term):
+    def multiply(self, term):
         if isinstance(term, Complex):
             return Complex(self.first * term.first - self.second * term.second, self.first * term.second + self.second * term.first)
 
